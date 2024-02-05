@@ -1,0 +1,45 @@
+.main-colour-scroll {
+  animation: bgColour linear both;
+  animation-timeline: scroll();
+}
+
+@keyframes bgColour {
+  0% {
+    background-color: #004643;
+  }
+  100% {
+    background-color: #f9bc60;
+  }
+}
+
+.p-colour-scroll {
+  animation: textColour linear both;
+  animation-timeline: scroll();
+}
+
+@keyframes textColour {
+  0% {
+    color: #f9bc60;
+  }
+  100% {
+    color: #004643;
+  }
+}
+
+.p-opacity-scroll {
+  animation: textOpacity linear both;
+  animation-timeline: scroll();
+}
+
+@keyframes textOpacity {
+  0% {
+    opacity: 0;
+  }
+  70%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
