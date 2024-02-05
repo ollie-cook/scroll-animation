@@ -1,0 +1,94 @@
+.disperse_one {
+  animation: disperseOne linear both;
+  animation-timeline: scroll();
+  animation-range: cover 80% cover 100%;
+  left: 5%;
+}
+
+.disperse_two {
+  animation: disperseTwo linear both;
+  animation-timeline: scroll();
+  animation-range: cover 80% cover 100%;
+  left: 15%;
+  top: 40%;
+}
+
+.disperse_three {
+  animation: disperseThree linear both;
+  animation-timeline: scroll();
+  animation-range: cover 80% cover 100%;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 60%;
+}
+
+.disperse_four {
+  animation: disperseFour linear both;
+  animation-timeline: scroll();
+  animation-range: cover 80% cover 100%;
+  right: 15%;
+  top: 40%;
+}
+
+.disperse_five {
+  animation: disperseFive linear both;
+  animation-timeline: scroll();
+  animation-range: cover 80% cover 100%;
+  right: 5%;
+}
+
+@keyframes disperseOne {
+  0% {
+    left: 50%;
+    transform: translateX(-50%)
+  }
+  100% {
+    left: 5%;
+  }
+}
+
+@keyframes disperseTwo {
+  0% {
+    left: 50%;
+    transform: translateX(-50%) rotate(5deg);
+    top: 2rem;
+  }
+  100% {
+    left: 15%;
+    top: 40%;
+  }
+}
+
+@keyframes disperseThree {
+  0% {
+    left: 50%;
+    transform: translateX(-50%) rotate(2.5deg);
+    top: 2rem;
+  }
+  100% {
+    left: 50%;
+    top: 60%;
+  }
+}
+
+@keyframes disperseFour {
+  0% {
+    right: 50%;
+    transform: translateX(50%) rotate(-2.5deg);
+    top: 2rem;
+  }
+  100% {
+    right: 15%;
+    top: 40%;
+  }
+}
+
+@keyframes disperseFive {
+  0% {
+    right: 50%;
+    transform: translateX(50%) rotate(-5deg);
+  }
+  100% {
+    right: 5%;
+  }
+}

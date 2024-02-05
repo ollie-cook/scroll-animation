@@ -1,13 +1,14 @@
 .main-colour-scroll {
   animation: bgColour linear both;
   animation-timeline: scroll();
+  background-color: #f9bc60;
 }
 
 @keyframes bgColour {
   0% {
     background-color: #004643;
   }
-  100% {
+  37.5% {
     background-color: #f9bc60;
   }
 }
@@ -15,13 +16,14 @@
 .p-colour-scroll {
   animation: textColour linear both;
   animation-timeline: scroll();
+  color: #004643
 }
 
 @keyframes textColour {
   0% {
     color: #f9bc60;
   }
-  100% {
+  37.5% {
     color: #004643;
   }
 }
@@ -35,10 +37,10 @@
   0% {
     opacity: 0;
   }
-  70%{
+  25%{
     opacity: 0;
   }
-  100% {
+  37.5% {
     opacity: 1;
   }
 }

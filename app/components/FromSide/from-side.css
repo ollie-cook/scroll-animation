@@ -1,0 +1,63 @@
+.top-left {
+  animation: topLeft;
+  animation-timeline: view();
+  animation-range: cover 0% cover 65%;
+  width: 40vw;
+}
+
+@keyframes topLeft {
+  0% {
+    width: 0
+  }
+  100% {
+    width: 40vw
+  }
+}
+
+.top-right {
+  animation: topRight;
+  animation-timeline: view();
+  animation-range: cover 0% cover 65%;
+  width: 50vw
+}
+
+@keyframes topRight {
+  0% {
+    width: 0
+  }
+  100% {
+    width: 50vw;
+  }
+}
+
+.bottom-left {
+  animation: bottomLeft;
+  animation-timeline: view();
+  animation-range: cover 0% cover 65%;
+  width: 50vw
+}
+
+@keyframes bottomLeft {
+  0% {
+    width: 0
+  }
+  100% {
+    width: 50vw;
+  }
+}
+
+.bottom-right {
+  animation: bottomRight;
+  animation-timeline: view();
+  animation-range: cover 0% cover 65%;
+  width: 40vw;
+}
+
+@keyframes bottomRight {
+  0% {
+    width: 0
+  }
+  100% {
+    width: 40vw
+  }
+}
