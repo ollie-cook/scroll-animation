@@ -31,7 +31,7 @@ export default function Home() {
     <main className="main-colour-scroll min-h-[200vh]">
       <div className="relative h-[200vh] w-full">
         <div className={`${scrollPosition > viewHeight ? 'absolute' : 'fixed'} bottom-[50vh] translate-y-1/2 left-[50vw] -translate-x-1/2`}>
-          <h1 className="text-6xl text-white font-bold "> 
+          <h1 className="text-6xl text-white text-center font-bold "> 
             Learning Scroll-Driven Animations
           </h1>
           <p className="p-colour-scroll text-xl font-bold text-center mt-4">
