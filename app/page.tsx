@@ -29,7 +29,6 @@ export default function Home() {
 
   return (
     <main className="main-colour-scroll min-h-[200vh]">
-      <p className="fixed">{scrollPosition}</p>
       <div className="relative h-[200vh] w-full">
         <div className={`${scrollPosition > viewHeight ? 'absolute' : 'fixed'} bottom-[50vh] translate-y-1/2 left-[50vw] -translate-x-1/2`}>
           <h1 className="text-6xl text-white font-bold "> 
